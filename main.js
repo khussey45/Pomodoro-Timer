@@ -35,13 +35,13 @@ function startPomodoro() {
                   setTimeout(() => { // Introducing a delay before resetting the timer
                       if (isWorkInterval) {
                           alert('Time for a break!');
-                          minutes = 0;
+                          minutes = 5;
                           
                       } else {
                           alert('Time to work!');
                           minutes = 0;
                       }
-                      seconds = 10;
+                      seconds = 0;
                       isWorkInterval = !isWorkInterval;
                       updateDisplay();
                       startPomodoro();
