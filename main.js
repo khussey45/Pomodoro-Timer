@@ -1,7 +1,7 @@
 let timer;
 let isWorkInterval = true;
-let minutes = 0;
-let seconds = 10;
+let minutes = 25;
+let seconds = 0;
 
 function updateDisplay() {
     const minutesString = String(minutes).padStart(2, '0');
